@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+</head>
+<body>
+<form <action="process.jsp" method="get">
+ <fieldset>
+  <legend>Registration Form</legend>
+  <label for="fname">Full Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" id="css" name="gender" value="Female">
+  <label for="female">Female</label><br><br>
+  <label for="colour">Favourite Colour:</label>
+  <select id="colour" name="colour">
+    <option value="purple">Purple</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+  </select><br><br>
+  <label for="datee">Date:</label>
+  <input type="date" id="datee" name="datee"><br><br>
+  <label for="timee">Time:</label>
+  <input type="time" id="timee" name="timee"><br><br>
+  <label for="prog">Programming Language: </label>
+  <input type="checkbox" id="prog" name="prog" value="C++">
+  <label for="prog"> C++</label>
+  <input type="checkbox" id="prog" name="prog" value="Java">
+  <label for="prog"> Java</label>
+  <input type="checkbox" id="prog" name="prog" value="Python">
+  <label for="prog"> Python</label><br><br>
+  <label for="user">Username:</label>
+  <input type="text" id="user" name="user"><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <label for="web">Personal Website:</label>
+  <input type="url" id="web" name="web"><br><br>
+  <label for="em">Email:</label>
+  <input type="email" id="em" name="em"><br>
+ </fieldset><br>
+ <input type="submit" value="Submit">
+ <input type ="reset">
+</form>
+
+</body>
+</html>
